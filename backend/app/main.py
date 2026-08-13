@@ -1,12 +1,17 @@
 from fastapi import FastAPI
 from backend.app.services.cost_engine import calculate_cost
 from backend.app.services.model_registry import get_model
+from backend.app.db.database import Base, engine
+from backend.app.db.models import UsageLog
+from backend.app.routes.usage import router as usage_router
 
 app = FastAPI(
     title="LLM Cost Autopilot API",
     description="AI-powered LLM cost optimization platform",
     version="1.0.0",
 )
+Base.metadata.create_all(bind=engine)
+app.include_router(usage_router)
 
 
 @app.get("/health")
