@@ -4,6 +4,8 @@ from backend.app.services.model_registry import get_model
 from backend.app.db.database import Base, engine
 from backend.app.db.models import UsageLog
 from backend.app.routes.usage import router as usage_router
+from pydantic import BaseModel
+from backend.app.services.router import route_prompt
 
 app = FastAPI(
     title="LLM Cost Autopilot API",
@@ -50,3 +52,16 @@ def get_model_info(model_name: str):
         return {
             "error": str(error)
         }
+class RouteRequest(BaseModel):
+    prompt: str
+    input_tokens: int = 0
+    output_tokens: int = 0
+
+
+@app.post("/route")
+def route_request(request: RouteRequest):
+   return route_prompt(
+    request.prompt,
+    request.input_tokens,
+    request.output_tokens,
+)
