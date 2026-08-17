@@ -11,39 +11,52 @@ def classify_prompt(prompt: str) -> str:
     if not prompt:
         return "simple"
 
-    word_count = len(prompt.split())
     prompt_lower = prompt.lower()
+    word_count = len(prompt.split())
 
+    # Strong signals of genuinely complex work
     complex_keywords = [
-        "analyze",
-        "architecture",
-        "algorithm",
-        "compare",
-        "design",
-        "optimize",
-        "debug",
-        "reason",
-        "research",
-        "explain in detail",
-        "machine learning",
-        "deep learning",
+        "production-ready",
+        "distributed system",
+        "scalable architecture",
+        "system architecture",
+        "machine learning pipeline",
+        "deep learning model",
+        "train a model",
+        "deploy a model",
+        "real-time fraud detection",
+        "fault tolerance",
+        "microservices",
+        "large-scale",
+        "optimization strategy",
+        "research paper",
+        "multi-step reasoning",
     ]
 
+    # Moderate tasks
     moderate_keywords = [
         "explain",
         "summarize",
         "calculate",
         "difference",
+        "compare",
         "example",
+        "examples",
         "describe",
+        "how does",
+        "how do",
+        "advantages",
+        "disadvantages",
     ]
 
+    # Complex if strong complexity signals exist
     if (
         any(keyword in prompt_lower for keyword in complex_keywords)
         or word_count > 80
     ):
         return "complex"
 
+    # Moderate if it asks for explanation/comparison
     if (
         any(keyword in prompt_lower for keyword in moderate_keywords)
         or word_count > 25
