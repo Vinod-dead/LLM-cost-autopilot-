@@ -1,0 +1,11 @@
+timestamp,model,provider,provider_model,prompt,input_tokens,output_tokens,cost,latency_ms,quality_tier,fallback,error
+2026-08-19T22:39:05.233760,local-model,ollama,llama3.2,What is Python?,29,507,0.0,49212.68,low,False,
+2026-08-19T22:39:38.276684,local-model,ollama,llama3.2,Explain machine learning in simple terms.,33,384,0.0,33042.07,low,False,
+2026-08-19T22:40:18.158079,local-model,ollama,llama3.2,What is the difference between AI and machine learning?,35,451,0.0,39880.41,low,False,
+2026-08-19T22:40:49.408345,local-model,ollama,llama3.2,Summarize the benefits of cloud computing.,34,365,0.0,31249.43,low,False,
+2026-08-19T22:40:55.892164,local-model,ollama,llama3.2,Extract the main points from this text: AI helps computers learn from data.,40,53,0.0,6483.12,low,False,
+2026-08-19T22:41:39.879625,local-model,ollama,llama3.2,Compare supervised learning and unsupervised learning.,34,520,0.0,43986.5,low,False,
+2026-08-19T22:42:34.423230,local-model,ollama,llama3.2,Explain how a REST API works.,33,641,0.0,54542.69,low,False,
+2026-08-19T22:43:02.014675,local-model,ollama,llama3.2,Write a short explanation of neural networks.,33,327,0.0,27590.41,low,False,
+2026-08-19T22:43:46.376763,local-model,ollama,llama3.2,Analyze the advantages and disadvantages of using AI in healthcare.,37,523,0.0,44361.13,low,False,
+2026-08-19T22:44:40.155739,local-model,ollama,llama3.2,Explain step by step how gradient descent works.,35,631,0.0,53778.03,low,False,
