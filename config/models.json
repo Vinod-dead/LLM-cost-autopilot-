@@ -1,22 +1,40 @@
 {
   "models": {
     "cheap-model": {
-      "provider": "demo",
-      "input_cost_per_1m_tokens": 0.1,
-      "output_cost_per_1m_tokens": 0.4,
+      "provider": "openai",
+      "provider_model": "gpt-5-mini",
+      "input_cost_per_1m_tokens": 0.25,
+      "output_cost_per_1m_tokens": 2.00,
+      "average_latency_ms": 800,
+      "quality_tier": "low",
       "tier": "cheap"
     },
     "balanced-model": {
-      "provider": "demo",
-      "input_cost_per_1m_tokens": 0.5,
-      "output_cost_per_1m_tokens": 1.5,
+      "provider": "anthropic",
+      "provider_model": "claude-sonnet-4-20250514",
+      "input_cost_per_1m_tokens": 3.00,
+      "output_cost_per_1m_tokens": 15.00,
+      "average_latency_ms": 1200,
+      "quality_tier": "medium",
       "tier": "balanced"
     },
     "powerful-model": {
-      "provider": "demo",
-      "input_cost_per_1m_tokens": 1.5,
-      "output_cost_per_1m_tokens": 4.0,
+      "provider": "openai",
+      "provider_model": "gpt-5",
+      "input_cost_per_1m_tokens": 1.25,
+      "output_cost_per_1m_tokens": 10.00,
+      "average_latency_ms": 1800,
+      "quality_tier": "high",
       "tier": "powerful"
+    },
+    "local-model": {
+      "provider": "ollama",
+      "provider_model": "llama3.2",
+      "input_cost_per_1m_tokens": 0.0,
+      "output_cost_per_1m_tokens": 0.0,
+      "average_latency_ms": 500,
+      "quality_tier": "low",
+      "tier": "cheap"
     }
   }
 }
