@@ -1,0 +1,4 @@
+routing:
+  simple: cheap-model
+  moderate: balanced-model
+  complex: powerful-model

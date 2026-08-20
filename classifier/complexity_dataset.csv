@@ -1,0 +1,251 @@
+prompt,complexity,token_count,instruction_count,constraint_count,has_context,output_format_complexity
+"In simple terms, Analyze a hypothetical dataset of LLM requests and propose how to identify which requests should be routed to more powerful models. Explain your reasoning.",complex,27,4,1,1,0
+Please What is supervised learning? Provide the key points.,simple,9,0,0,0,0
+Compare SQL and NoSQL databases for a web application. Use bullet points.,moderate,12,1,0,0,1
+"In simple terms, Design an experiment to determine whether an LLM routing system actually reduces costs without significantly reducing answer quality. Give a clear explanation.",complex,25,1,1,0,1
+"Can you Create a complete technical strategy for deploying an LLM cost optimization platform using FastAPI, Docker, SQLite, and background workers. Use bullet points.",complex,24,1,0,0,2
+Please Classify the following customer feedback into positive and negative. Use bullet points.,moderate,13,1,0,1,1
+"For an AI project, Design a model-selection algorithm that considers prompt complexity, model cost, historical quality, and latency simultaneously. Explain your reasoning.",complex,23,2,0,0,0
+Help me Analyze how a cost-optimization system could accidentally reduce response quality and design safeguards to prevent this problem. Explain your reasoning.,complex,23,3,0,0,0
+Evaluate several possible approaches for measuring quality parity between inexpensive and expensive LLM models and recommend the most reliable approach. Explain your reasoning.,complex,23,3,0,0,0
+Can you What is a function in Python? Give a clear explanation.,simple,12,0,0,0,1
+"For a software project, What is JSON? Make the response concise.",simple,11,0,0,0,0
+Can you What is Python? Keep the answer structured.,simple,9,0,1,0,1
+Please What is a neural network? Use bullet points.,simple,9,0,0,0,1
+Compare FastAPI and Flask for building APIs. Explain your reasoning.,moderate,10,2,0,0,0
+"For an AI project, What is cloud computing? Include an example.",simple,11,0,1,0,0
+Please Analyze the strengths and weaknesses of a proposed software architecture. Give a clear explanation.,moderate,15,2,0,0,2
+"In simple terms, What is FastAPI? Provide the key points.",simple,10,0,0,0,0
+"For a software project, Explain the difference between classification and regression. Include an example.",moderate,14,1,1,0,0
+"I need you to Analyze this software architecture, identify its scalability risks, and propose an improved production architecture with justification. Keep the answer structured.",complex,24,3,1,0,2
+"For an AI project, Create a structured summary of the following project requirements. Give a clear explanation.",moderate,17,1,0,1,2
+"Help me Compare multiple LLM routing strategies and recommend one for a production system, considering cost, latency, reliability, and quality. Give a clear explanation.",complex,24,2,1,0,1
+"In simple terms, What is machine learning? Give a clear explanation.",simple,11,0,0,0,1
+"In simple terms, Design a production system that can dynamically update routing rules without requiring a full application redeployment. Include an example.",complex,22,1,2,0,0
+Evaluate several possible approaches for measuring quality parity between inexpensive and expensive LLM models and recommend the most reliable approach. Give a clear explanation.,complex,24,2,0,0,1
+Define artificial intelligence. Explain your reasoning.,simple,6,1,0,0,0
+"For an AI project, Explain the difference between classification and regression. Provide the key points.",moderate,15,1,0,0,0
+"Help me Design a fault-tolerant multi-provider LLM service that automatically handles provider outages, rate limits, and quality failures. Keep the answer structured.",complex,24,1,1,0,1
+I need you to What is Git?,simple,7,0,0,0,0
+"Help me Design a complete architecture for an AI system that automatically routes LLM requests based on complexity, cost, latency, and quality. Make the response concise.",complex,26,1,0,0,1
+"In simple terms, What is Git? Keep the answer structured.",simple,10,0,1,0,1
+Help me Analyze why a web application might have slow API responses. Keep the answer structured.,moderate,16,1,1,0,1
+I need you to Develop a production-ready approach for automatically escalating an LLM request when a quality verifier detects that the selected model produced an inadequate response. Give a clear explanation.,complex,32,1,0,0,1
+Can you Explain how a REST API works and give a simple example. Use bullet points.,moderate,16,1,0,0,1
+Please Analyze the likely causes of high cloud computing costs. Make the response concise.,moderate,14,1,0,0,0
+Help me Analyze the strengths and weaknesses of a proposed software architecture. Keep the answer structured.,moderate,16,2,1,0,2
+"For an AI project, Classify these examples into supervised and unsupervised learning. Explain your reasoning.",moderate,15,2,0,1,0
+Explain how a REST API works and give a simple example. Include an example.,moderate,14,1,1,0,0
+"For a software project, Create a detailed plan for continuously improving an LLM routing classifier using production feedback and routing failures. Provide the key points.",complex,25,1,0,1,1
+I need you to What is unsupervised learning? Provide the key points.,simple,12,0,0,0,0
+"In simple terms, Compare REST and GraphQL APIs. Include an example.",moderate,11,1,1,0,0
+"In simple terms, What is supervised learning? Give a clear explanation.",simple,11,0,0,0,1
+"In simple terms, Compare REST and GraphQL APIs.",moderate,8,1,0,0,0
+"For a software project, Design a machine learning pipeline that detects routing failures, retrains a classifier from those failures, and evaluates whether the new model improves performance.",complex,27,2,0,0,1
+Please Summarize the main benefits of cloud computing. Keep the answer structured.,moderate,12,1,1,0,1
+"I need you to Create a complete technical strategy for deploying an LLM cost optimization platform using FastAPI, Docker, SQLite, and background workers. Make the response concise.",complex,27,1,0,0,1
+"For a software project, Evaluate several possible approaches for measuring quality parity between inexpensive and expensive LLM models and recommend the most reliable approach. Make the response concise.",complex,28,2,0,0,0
+"In simple terms, Design a model-selection algorithm that considers prompt complexity, model cost, historical quality, and latency simultaneously. Include an example.",complex,22,1,1,0,0
+I need you to What is React? Give a clear explanation.,simple,11,0,0,0,1
+"In simple terms, Compare REST and GraphQL APIs. Use bullet points.",moderate,11,1,0,0,1
+I need you to What is a neural network?,simple,9,0,0,0,0
+I need you to Compare SQL and NoSQL databases for a web application. Make the response concise.,moderate,17,1,0,0,0
+Please What is an algorithm? Provide the key points.,simple,9,0,0,0,0
+I need you to Compare SQL and NoSQL databases for a web application. Provide the key points.,moderate,17,1,0,0,0
+Please What is a database? Keep the answer structured.,simple,9,0,1,0,1
+I need you to Analyze why a web application might have slow API responses. Include an example.,moderate,17,1,1,0,0
+Compare Python and Java for backend development. Make the response concise.,moderate,11,2,0,0,0
+I need you to What is a REST API?,simple,9,0,0,0,0
+"For a software project, Create a table comparing three database technologies. Make the response concise.",moderate,15,1,0,0,1
+Explain the main components of a machine learning pipeline.,moderate,9,1,0,0,1
+Help me What is Git? Use bullet points.,simple,8,0,0,0,1
+Explain the difference between supervised and unsupervised learning. Use bullet points.,moderate,11,1,0,0,1
+Help me Analyze the advantages and disadvantages of using Docker.,moderate,10,1,0,0,0
+I need you to Design an experiment to determine whether an LLM routing system actually reduces costs without significantly reducing answer quality. Include an example.,complex,25,1,2,0,0
+"In simple terms, Analyze why a web application might have slow API responses. Explain your reasoning.",moderate,16,2,0,0,0
+"In simple terms, Explain the main components of a machine learning pipeline. Give a clear explanation.",moderate,16,1,0,0,2
+Help me Explain the main components of a machine learning pipeline. Use bullet points.,moderate,14,1,0,0,2
+Explain how authentication works in a web API. Include an example.,moderate,11,1,1,0,0
+"For a software project, Create a complete technical strategy for deploying an LLM cost optimization platform using FastAPI, Docker, SQLite, and background workers. Explain your reasoning.",complex,26,2,0,0,1
+Design an evaluation framework that uses an LLM judge to determine whether cheaper model responses are sufficiently similar to expensive model responses. Include an example.,complex,25,1,1,0,1
+Analyze the strengths and weaknesses of a proposed software architecture. Include an example.,moderate,13,2,1,0,1
+"For an AI project, Design a model-selection algorithm that considers prompt complexity, model cost, historical quality, and latency simultaneously. Include an example.",complex,23,1,1,0,0
+Please Design an evaluation framework that uses an LLM judge to determine whether cheaper model responses are sufficiently similar to expensive model responses. Provide the key points.,complex,27,1,0,0,1
+Can you Create a structured summary of the following project requirements. Include an example.,moderate,14,1,1,1,1
+Please Explain the difference between supervised and unsupervised learning. Include an example.,moderate,12,1,1,0,0
+Help me Evaluate several possible approaches for measuring quality parity between inexpensive and expensive LLM models and recommend the most reliable approach. Give a clear explanation.,complex,26,2,0,0,1
+Design an experiment to determine whether an LLM routing system actually reduces costs without significantly reducing answer quality. Keep the answer structured.,complex,22,1,2,0,1
+"I need you to Analyze this software architecture, identify its scalability risks, and propose an improved production architecture with justification. Include an example.",complex,23,3,1,0,1
+Please Classify these examples into supervised and unsupervised learning. Provide the key points.,moderate,13,1,0,1,0
+"In simple terms, Analyze a hypothetical dataset of LLM requests and propose how to identify which requests should be routed to more powerful models.",complex,24,3,1,1,0
+"For a software project, What is GitHub? Make the response concise.",simple,11,0,0,0,0
+Can you Classify these examples into supervised and unsupervised learning. Include an example.,moderate,13,1,1,1,0
+"For an AI project, What is JSON? Make the response concise.",simple,11,0,0,0,0
+Help me What is cloud computing? Provide the key points.,simple,10,0,0,0,0
+"For an AI project, What is a database? Include an example.",simple,11,0,1,0,0
+I need you to Create a structured summary of the following project requirements. Include an example.,moderate,16,1,1,1,1
+What is machine learning? Explain your reasoning.,simple,7,1,0,0,0
+I need you to What is machine learning?,simple,8,0,0,0,0
+"For an AI project, What is a function in Python? Use bullet points.",simple,13,0,0,0,1
+I need you to Create a detailed plan for continuously improving an LLM routing classifier using production feedback and routing failures. Give a clear explanation.,complex,25,1,0,1,1
+"For an AI project, Compare FastAPI and Flask for building APIs. Provide the key points.",moderate,15,1,0,0,0
+"In simple terms, Compare multiple LLM routing strategies and recommend one for a production system, considering cost, latency, reliability, and quality. Give a clear explanation.",complex,25,2,1,0,1
+Help me Create a detailed plan for continuously improving an LLM routing classifier using production feedback and routing failures.,complex,19,1,0,1,1
+"For an AI project, What is SQL? Keep the answer structured.",simple,11,0,1,0,1
+What is React? Give a clear explanation.,simple,7,0,0,0,1
+What is cloud computing? Use bullet points.,simple,7,0,0,0,1
+"For an AI project, What is Docker? Give a clear explanation.",simple,11,0,0,0,1
+Classify the following customer feedback into positive and negative. Make the response concise.,moderate,13,1,0,1,0
+Can you What is FastAPI? Include an example.,simple,8,0,1,0,0
+Help me What is a database? Explain your reasoning.,simple,9,1,0,0,0
+"For a software project, Compare SQL and NoSQL databases for a web application. Include an example.",moderate,16,1,1,0,0
+I need you to What is a database? Use bullet points.,simple,11,0,0,0,1
+"For a software project, What is SQL? Use bullet points.",simple,10,0,0,0,1
+I need you to Explain the difference between classification and regression. Keep the answer structured.,moderate,15,1,1,0,1
+Help me Analyze the trade-offs between local LLM inference and cloud APIs for a production application and provide a decision framework. Use bullet points.,complex,25,1,0,0,2
+"For an AI project, Evaluate several possible approaches for measuring quality parity between inexpensive and expensive LLM models and recommend the most reliable approach. Include an example.",complex,27,2,1,0,0
+"For a software project, What is GitHub? Use bullet points.",simple,10,0,0,0,1
+Can you What is React? Include an example.,simple,8,0,1,0,0
+"For a software project, What is SQL? Include an example.",simple,10,0,1,0,0
+"For a software project, Analyze the strengths and weaknesses of a proposed software architecture. Give a clear explanation.",moderate,18,2,0,0,2
+"Can you Design a model-selection algorithm that considers prompt complexity, model cost, historical quality, and latency simultaneously.",complex,18,1,0,0,0
+I need you to What is a variable in programming? Provide the key points.,simple,14,0,0,0,0
+"In simple terms, What is an algorithm? Use bullet points.",simple,10,0,0,0,1
+"In simple terms, What is Docker?",simple,6,0,0,0,0
+"In simple terms, Create a detailed architecture for an asynchronous LLM verification service with queues, workers, persistence, retries, and failure handling. Give a clear explanation.",complex,25,1,0,0,2
+"For a software project, Explain how a REST API works and give a simple example. Give a clear explanation.",moderate,19,1,0,0,1
+"For an AI project, What is a REST API? Keep the answer structured.",simple,13,0,1,0,1
+"For a software project, Compare REST and GraphQL APIs. Make the response concise.",moderate,13,1,0,0,0
+I need you to Design a production system that can dynamically update routing rules without requiring a full application redeployment. Keep the answer structured.,complex,24,1,2,0,1
+Explain how a REST API works and give a simple example. Give a clear explanation.,moderate,15,1,0,0,1
+What is machine learning? Give a clear explanation.,simple,8,0,0,0,1
+"Help me Design a model-selection algorithm that considers prompt complexity, model cost, historical quality, and latency simultaneously. Include an example.",complex,21,1,1,0,0
+"For an AI project, What is machine learning? Explain your reasoning.",simple,11,1,0,0,0
+"For an AI project, Design a machine learning pipeline that detects routing failures, retrains a classifier from those failures, and evaluates whether the new model improves performance. Keep the answer structured.",complex,31,2,1,0,2
+"For a software project, Create a detailed architecture for an asynchronous LLM verification service with queues, workers, persistence, retries, and failure handling. Make the response concise.",complex,26,1,0,0,1
+I need you to Define artificial intelligence. Include an example.,simple,10,0,1,0,0
+"For a software project, Analyze the trade-offs between local LLM inference and cloud APIs for a production application and provide a decision framework. Give a clear explanation.",complex,28,1,0,0,2
+"Can you Design a complete architecture for an AI system that automatically routes LLM requests based on complexity, cost, latency, and quality. Include an example.",complex,25,1,1,0,1
+Please What is machine learning? Provide the key points.,simple,9,0,0,0,0
+Help me Design an experiment to determine whether an LLM routing system actually reduces costs without significantly reducing answer quality. Keep the answer structured.,complex,24,1,2,0,1
+I need you to What is a variable in programming? Give a clear explanation.,simple,14,0,0,0,1
+I need you to Analyze why a web application might have slow API responses. Keep the answer structured.,moderate,18,1,1,0,1
+"For an AI project, Develop a production-ready approach for automatically escalating an LLM request when a quality verifier detects that the selected model produced an inadequate response. Provide the key points.",complex,32,1,0,0,0
+I need you to Compare REST and GraphQL APIs. Explain your reasoning.,moderate,12,2,0,0,0
+"In simple terms, Analyze the advantages and disadvantages of using Docker. Include an example.",moderate,14,1,1,0,0
+Please Create a detailed plan for continuously improving an LLM routing classifier using production feedback and routing failures. Make the response concise.,complex,22,1,0,1,1
+"In simple terms, What is an API? Provide the key points.",simple,11,0,0,0,0
+Please What is JSON? Include an example.,simple,7,0,1,0,0
+"Please Design a complete monitoring strategy for an LLM platform covering cost, latency, token usage, quality, failures, and escalation rates.",complex,20,1,0,0,1
+"For a software project, Classify the following customer feedback into positive and negative. Include an example.",moderate,16,1,1,1,0
+Help me Design a feedback loop where routing failures become new training examples and explain how to avoid introducing biased training data. Make the response concise.,complex,26,2,0,1,0
+What is a database? Include an example.,simple,7,0,1,0,0
+"For an AI project, Create a structured summary of the following project requirements. Include an example.",moderate,16,1,1,1,1
+"In simple terms, Create a detailed plan for continuously improving an LLM routing classifier using production feedback and routing failures. Use bullet points.",complex,23,1,0,1,2
+"Analyze this software architecture, identify its scalability risks, and propose an improved production architecture with justification. Include an example.",complex,19,3,1,0,1
+"For a software project, Create a structured summary of the following project requirements. Give a clear explanation.",moderate,17,1,0,1,2
+Please Design a production system that can dynamically update routing rules without requiring a full application redeployment. Provide the key points.,complex,21,1,1,0,0
+Please Compare Python and Java for backend development. Use bullet points.,moderate,11,2,0,0,1
+"For an AI project, What is React? Include an example.",simple,10,0,1,0,0
+"Can you Design a machine learning pipeline that detects routing failures, retrains a classifier from those failures, and evaluates whether the new model improves performance. Use bullet points.",complex,28,2,0,0,2
+"For a software project, What is Git? Give a clear explanation.",simple,11,0,0,0,1
+I need you to Compare Python and Java for backend development. Include an example.,moderate,14,2,1,0,0
+"In simple terms, Analyze the advantages and disadvantages of using Docker. Keep the answer structured.",moderate,15,1,1,0,1
+"For an AI project, Design a fault-tolerant multi-provider LLM service that automatically handles provider outages, rate limits, and quality failures. Make the response concise.",complex,26,1,0,0,0
+"For an AI project, Compare multiple LLM routing strategies and recommend one for a production system, considering cost, latency, reliability, and quality. Provide the key points.",complex,26,2,1,0,0
+Can you Compare FastAPI and Flask for building APIs. Keep the answer structured.,moderate,13,1,1,0,1
+"For a software project, Summarize the following technical requirements into five bullet points. Use bullet points.",moderate,16,1,0,1,1
+I need you to What is a neural network? Provide the key points.,simple,13,0,0,0,0
+I need you to Define artificial intelligence. Explain your reasoning.,simple,10,1,0,0,0
+Help me Develop a strategy for reducing LLM inference costs while maintaining at least 95 percent quality parity with a high-quality reference model. Give a clear explanation.,complex,28,1,2,0,2
+"For an AI project, Explain the main components of a machine learning pipeline. Provide the key points.",moderate,17,1,0,0,1
+Can you Compare Python and Java for backend development.,moderate,9,2,0,0,0
+I need you to Explain how authentication works in a web API. Include an example.,moderate,15,1,1,0,0
+"Can you Create a detailed architecture for an asynchronous LLM verification service with queues, workers, persistence, retries, and failure handling. Make the response concise.",complex,24,1,0,0,1
+I need you to Evaluate several possible approaches for measuring quality parity between inexpensive and expensive LLM models and recommend the most reliable approach. Make the response concise.,complex,28,2,0,0,0
+I need you to Classify the following customer feedback into positive and negative. Include an example.,moderate,16,1,1,1,0
+"In simple terms, Develop a production-ready approach for automatically escalating an LLM request when a quality verifier detects that the selected model produced an inadequate response. Keep the answer structured.",complex,31,1,1,0,1
+Explain the difference between classification and regression. Provide the key points.,moderate,11,1,0,0,0
+I need you to Explain how authentication works in a web API. Give a clear explanation.,moderate,16,1,0,0,1
+Please What is a variable in programming? Give a clear explanation.,simple,11,0,0,0,1
+What is JSON? Provide the key points.,simple,7,0,0,0,0
+Can you Explain the main components of a machine learning pipeline. Give a clear explanation.,moderate,15,1,0,0,2
+"For an AI project, Design a complete monitoring strategy for an LLM platform covering cost, latency, token usage, quality, failures, and escalation rates. Keep the answer structured.",complex,27,1,1,0,2
+Can you Explain how authentication works in a web API. Use bullet points.,moderate,13,1,0,0,1
+"For an AI project, Compare REST and GraphQL APIs. Explain your reasoning.",moderate,12,2,0,0,0
+Please What is Python? Explain your reasoning.,simple,7,1,0,0,0
+"Help me Design a machine learning pipeline that detects routing failures, retrains a classifier from those failures, and evaluates whether the new model improves performance. Use bullet points.",complex,28,2,0,0,2
+"I need you to Design a complete architecture for an AI system that automatically routes LLM requests based on complexity, cost, latency, and quality. Use bullet points.",complex,27,1,0,0,2
+"In simple terms, Analyze the trade-offs between local LLM inference and cloud APIs for a production application and provide a decision framework. Include an example.",complex,26,1,1,0,1
+"Can you Design a complete architecture for an AI system that automatically routes LLM requests based on complexity, cost, latency, and quality. Use bullet points.",complex,25,1,0,0,2
+I need you to What is unsupervised learning? Keep the answer structured.,simple,12,0,1,0,1
+Evaluate several possible approaches for measuring quality parity between inexpensive and expensive LLM models and recommend the most reliable approach. Provide the key points.,complex,24,2,0,0,0
+I need you to Explain the difference between classification and regression. Provide the key points.,moderate,15,1,0,0,0
+Design an experiment to determine whether an LLM routing system actually reduces costs without significantly reducing answer quality. Give a clear explanation.,complex,22,1,1,0,1
+"In simple terms, What is a REST API? Use bullet points.",simple,11,0,0,0,1
+I need you to What is unsupervised learning? Explain your reasoning.,simple,11,1,0,0,0
+"In simple terms, What is a variable in programming? Include an example.",simple,12,0,1,0,0
+"In simple terms, What is Git? Provide the key points.",simple,10,0,0,0,0
+I need you to Explain the main components of a machine learning pipeline. Include an example.,moderate,16,1,1,0,1
+Create a table comparing three database technologies. Give a clear explanation.,moderate,11,1,0,0,2
+Please Analyze the trade-offs between local LLM inference and cloud APIs for a production application and provide a decision framework. Use bullet points.,complex,24,1,0,0,2
+Can you Compare SQL and NoSQL databases for a web application. Provide the key points.,moderate,15,1,0,0,0
+"For an AI project, Define artificial intelligence. Give a clear explanation.",simple,11,0,0,0,1
+"In simple terms, Analyze the advantages and disadvantages of using Docker. Make the response concise.",moderate,15,1,0,0,0
+Please What is a function in Python? Provide the key points.,simple,11,0,0,0,0
+Please Analyze a hypothetical dataset of LLM requests and propose how to identify which requests should be routed to more powerful models. Give a clear explanation.,complex,26,3,1,1,1
+"For an AI project, Summarize the main benefits of cloud computing.",moderate,11,1,0,0,0
+"In simple terms, Summarize this article into a short executive summary. Use bullet points.",moderate,14,1,0,1,1
+Please Explain the difference between classification and regression. Explain your reasoning.,moderate,11,1,0,0,0
+Can you What is a variable in programming? Keep the answer structured.,simple,12,0,1,0,1
+Explain how authentication works in a web API. Give a clear explanation.,moderate,12,1,0,0,1
+"For an AI project, Design a complete architecture for an AI system that automatically routes LLM requests based on complexity, cost, latency, and quality. Make the response concise.",complex,28,1,0,0,1
+What is machine learning? Make the response concise.,simple,8,0,0,0,0
+"For a software project, Design a model-selection algorithm that considers prompt complexity, model cost, historical quality, and latency simultaneously. Explain your reasoning.",complex,23,2,0,0,0
+Help me Compare Python and Java for backend development. Explain your reasoning.,moderate,12,3,0,0,0
+I need you to What is SQL? Provide the key points.,simple,11,0,0,0,0
+"For an AI project, Create a structured summary of the following project requirements. Use bullet points.",moderate,16,1,0,1,2
+"In simple terms, What is a function in Python? Include an example.",simple,12,0,1,0,0
+"For an AI project, Analyze the likely causes of high cloud computing costs. Use bullet points.",moderate,16,1,0,0,1
+"For an AI project, Create a complete technical strategy for deploying an LLM cost optimization platform using FastAPI, Docker, SQLite, and background workers. Explain your reasoning.",complex,26,2,0,0,1
+"For an AI project, Analyze the strengths and weaknesses of a proposed software architecture. Make the response concise.",moderate,18,2,0,0,1
+Can you What is supervised learning?,simple,6,0,0,0,0
+"Please Design a fault-tolerant multi-provider LLM service that automatically handles provider outages, rate limits, and quality failures. Keep the answer structured.",complex,23,1,1,0,1
+Can you What is SQL?,simple,5,0,0,0,0
+Define artificial intelligence. Use bullet points.,simple,6,0,0,0,1
+I need you to Analyze the trade-offs between local LLM inference and cloud APIs for a production application and provide a decision framework. Include an example.,complex,27,1,1,0,1
+Help me What is supervised learning?,simple,6,0,0,0,0
+"For a software project, Create a complete technical strategy for deploying an LLM cost optimization platform using FastAPI, Docker, SQLite, and background workers. Keep the answer structured.",complex,27,1,1,0,2
+What is unsupervised learning? Give a clear explanation.,simple,8,0,0,0,1
+Help me What is a database? Keep the answer structured.,simple,10,0,1,0,1
+Analyze a hypothetical dataset of LLM requests and propose how to identify which requests should be routed to more powerful models. Explain your reasoning.,complex,24,4,1,1,0
+I need you to What is an algorithm? Provide the key points.,simple,12,0,0,0,0
+"In simple terms, Compare REST and GraphQL APIs. Provide the key points.",moderate,12,1,0,0,0
+I need you to What is an API? Include an example.,simple,11,0,1,0,0
+I need you to Summarize the following technical requirements into five bullet points. Give a clear explanation.,moderate,17,1,0,1,2
+I need you to What is unsupervised learning? Include an example.,simple,11,0,1,0,0
+I need you to Design a feedback loop where routing failures become new training examples and explain how to avoid introducing biased training data. Give a clear explanation.,complex,28,2,0,1,1
+Analyze a hypothetical dataset of LLM requests and propose how to identify which requests should be routed to more powerful models. Keep the answer structured.,complex,25,3,2,1,1
+Can you Summarize this article into a short executive summary. Make the response concise.,moderate,14,1,0,1,0
+Can you Design an experiment to determine whether an LLM routing system actually reduces costs without significantly reducing answer quality. Use bullet points.,complex,23,1,1,0,1
+"In simple terms, Design an evaluation framework that uses an LLM judge to determine whether cheaper model responses are sufficiently similar to expensive model responses. Use bullet points.",complex,28,1,0,0,2
+"In simple terms, Design a complete architecture for an AI system that automatically routes LLM requests based on complexity, cost, latency, and quality. Explain your reasoning.",complex,26,2,0,0,1
+Please What is React?,simple,4,0,0,0,0
+"For an AI project, What is an algorithm? Use bullet points.",simple,11,0,0,0,1
+"For a software project, Design an experiment to determine whether an LLM routing system actually reduces costs without significantly reducing answer quality. Use bullet points.",complex,25,1,1,0,1
+"For a software project, What is React? Provide the key points.",simple,11,0,0,0,0
+Help me Compare FastAPI and Flask for building APIs. Use bullet points.,moderate,12,1,0,0,1
+Can you Analyze how a cost-optimization system could accidentally reduce response quality and design safeguards to prevent this problem. Include an example.,complex,23,2,1,0,0
+"Design a complete architecture for an AI system that automatically routes LLM requests based on complexity, cost, latency, and quality. Explain your reasoning.",complex,23,2,0,0,1
+What is JSON? Keep the answer structured.,simple,7,0,1,0,1
+"Please Design a fault-tolerant multi-provider LLM service that automatically handles provider outages, rate limits, and quality failures.",complex,19,1,0,0,0
+Explain the difference between AI and machine learning.,moderate,8,1,0,0,0
+Explain the difference between supervised and unsupervised learning.,moderate,8,1,0,0,0
+Compare Python and Java programming languages.,moderate,7,1,0,0,0
+Explain how a REST API works.,moderate,7,1,0,0,0
+Compare SQL and NoSQL databases.,moderate,6,1,0,0,0
+Design a scalable distributed AI architecture with fault tolerance.,complex,9,1,1,0,2
+Design a production-ready microservices architecture for an AI platform.,complex,10,1,1,0,2
+Develop a fault-tolerant distributed machine learning pipeline.,complex,8,1,1,0,2
+Create a scalable architecture for real-time fraud detection using machine learning.,complex,11,1,1,0,2
+Design a multi-step optimization strategy for an LLM routing system.,complex,10,1,1,0,2
